@@ -17,7 +17,7 @@ const headers = {
 
 const getGenres = async () => {
   let req = await fetch(
-    "https://rqpfbkysrcmfrtmcvmop.supabase.co/rest/v1/genres?select=*",
+    "https://jtepzroxxvevpkdzahmq.supabase.co/rest/v1/genres?select=*",
     {
       method: "GET",
       headers: headers,
